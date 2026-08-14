@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "Bora Assistir — sorteio de filmes e séries",
+    "description": "Sorteie um filme ou série em um toque. Sem filtro, o sorteio sai do Top 250 do IMDb — ou filtre por streaming, gênero e década.",
+    "keywords": [
+      "sorteio de filmes",
+      "o que assistir",
+      "sorteador de filmes",
+      "roleta de filmes",
+      "IMDb Top 250",
+      "filmes",
+      "séries",
+      "streaming"
+    ]
+  },
+  "header": {
+    "badge": "Um toque e pronto",
+    "kicker": "Filmes e séries no sorteio",
+    "intro": "Cansado de gastar meia hora só escolhendo o que assistir? Sem filtro nenhum, o sorteio sai direto do Top 250 do IMDb — ou filtre por streaming, gênero e década."
+  },
+  "media": {
+    "ariaLabel": "Tipo de conteúdo",
+    "movie": {
+      "label": "Filmes",
+      "singular": "filme"
+    },
+    "tv": {
+      "label": "Séries",
+      "singular": "série"
+    }
+  },
+  "mode": {
+    "ariaLabel": "Modo de sorteio",
+    "single": "Sortear 1",
+    "triple": "Escolher entre 3"
+  },
+  "lists": {
+    "ariaLabel": "Ranking",
+    "imdb": {
+      "label": "Top 250 IMDb",
+      "short": "IMDb 250",
+      "source": "IMDb Top 250"
+    },
+    "top": {
+      "label": "Mais bem avaliados",
+      "short": "Bem avaliados",
+      "source": "TMDb Top Rated"
+    },
+    "popular": {
+      "label": "Populares agora",
+      "short": "Populares",
+      "source": "TMDb Popular"
+    }
+  },
+  "filters": {
+    "button": "Filtros",
+    "close": "Fechar",
+    "placeholder": "Streaming, gênero, década",
+    "whereToWatch": "Onde assistir",
+    "anyService": "Qualquer serviço",
+    "needsLive": "O filtro por serviço requer dados ao vivo do TMDb.",
+    "genre": "Gênero",
+    "allGenres": "Todos",
+    "decade": "Década",
+    "allDecades": "Todas",
+    "countOne": "{count} título no filtro",
+    "countOther": "{count} títulos no filtro",
+    "clear": "Limpar filtros",
+    "origin": "Origem",
+    "allOrigins": "Todas"
+  },
+  "stage": {
+    "loading": "Carregando catálogo...",
+    "idleSingle": "Pronto para decidir? ",
+    "idleTriple": "Sorteie 3 opções e escolha a sua entre ",
+    "idleTail": "esperando pelo seu toque.",
+    "empty": "Nenhum título combina com esses filtros.",
+    "shuffling": "Embaralhando",
+    "chooseOne": "Toque para escolher uma das opções:"
+  },
+  "actions": {
+    "drawing": "Sorteando...",
+    "again": "Sortear de novo",
+    "drawThree": "Sortear 3 opções",
+    "drawOne": "Sortear {kind}",
+    "countOne": "{count} sorteio nesta sessão",
+    "countOther": "{count} sorteios nesta sessão"
+  },
+  "result": {
+    "rank": "#{rank} no ranking",
+    "directedBy": "dirigido por {name}",
+    "posterAlt": "Pôster de {title}",
+    "readMore": "Ler sinopse completa",
+    "readLess": "Recolher sinopse",
+    "watchTrailer": "Ver trailer",
+    "noTrailer": "Trailer não disponível",
+    "closeTrailer": "Fechar trailer",
+    "trailerOf": "Trailer de {title}"
+  },
+  "faq": {
+    "heading": "Perguntas frequentes",
+    "items": [
+      {
+        "q": "De onde vêm os filmes sorteados?",
+        "a": "Sem nenhum filtro, o sorteio usa a lista Top 250 do IMDb (250 títulos) espelhada no TMDb. Ao filtrar por streaming, os títulos vêm do catálogo do serviço na sua região, ordenados por nota."
+      },
+      {
+        "q": "Dá para sortear séries também?",
+        "a": "Sim. Alterne entre Filmes e Séries no topo; as séries usam os rankings de mais bem avaliadas e populares do TMDb."
+      },
+      {
+        "q": "Como filtrar por streaming, gênero ou década?",
+        "a": "Escolha o serviço em \"Onde assistir\" e refine por gênero e década. O botão \"Limpar filtros\" volta ao Top 250 do IMDb."
+      },
+      {
+        "q": "Posso ver 3 opções em vez de 1?",
+        "a": "Sim. No modo \"Escolher entre 3\" o sorteio devolve três títulos e você decide entre eles."
+      }
+    ]
+  },
+  "footer": {
+    "live": "Dados em tempo real via TMDb (The Movie Database).",
+    "offlinePrefix": "Exibindo curadoria offline. Configure a variável ",
+    "offlineSuffix": " para puxar os rankings ao vivo do TMDb."
+  },
+  "langSwitch": {
+    "ariaLabel": "Idioma"
+  },
+  "misc": {
+    "otherGenre": "Outros",
+    "untitled": "Sem título"
+  },
+  "origins": {
+    "ko": "Doramas"
+  },
+  "brand": {
+    "name": "Bora Assistir",
+    "first": "Bora",
+    "second": "Assistir"
+  }
+}

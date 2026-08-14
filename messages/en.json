@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "Let's Watch — random movie & TV show picker",
+    "description": "Pick a movie or show in one tap. With no filters the draw comes straight from the IMDb Top 250 — or filter by streaming service, genre and decade.",
+    "keywords": [
+      "random movie picker",
+      "what to watch",
+      "movie roulette",
+      "random movie generator",
+      "IMDb Top 250",
+      "movies",
+      "tv shows",
+      "streaming"
+    ]
+  },
+  "header": {
+    "badge": "One tap and done",
+    "kicker": "Movies and shows in the draw",
+    "intro": "Tired of spending half an hour just picking something to watch? With no filters, the draw comes straight from the IMDb Top 250 — or filter by streaming service, genre and decade."
+  },
+  "media": {
+    "ariaLabel": "Content type",
+    "movie": {
+      "label": "Movies",
+      "singular": "movie"
+    },
+    "tv": {
+      "label": "TV shows",
+      "singular": "show"
+    }
+  },
+  "mode": {
+    "ariaLabel": "Draw mode",
+    "single": "Draw 1",
+    "triple": "Pick from 3"
+  },
+  "lists": {
+    "ariaLabel": "Ranking",
+    "imdb": {
+      "label": "IMDb Top 250",
+      "short": "IMDb 250",
+      "source": "IMDb Top 250"
+    },
+    "top": {
+      "label": "Top rated",
+      "short": "Top rated",
+      "source": "TMDb Top Rated"
+    },
+    "popular": {
+      "label": "Popular now",
+      "short": "Popular",
+      "source": "TMDb Popular"
+    }
+  },
+  "filters": {
+    "button": "Filters",
+    "close": "Close",
+    "placeholder": "Streaming, genre, decade",
+    "whereToWatch": "Where to watch",
+    "anyService": "Any service",
+    "needsLive": "Filtering by service requires live TMDb data.",
+    "genre": "Genre",
+    "allGenres": "All",
+    "decade": "Decade",
+    "allDecades": "All",
+    "countOne": "{count} title in filter",
+    "countOther": "{count} titles in filter",
+    "clear": "Clear filters",
+    "origin": "Origin",
+    "allOrigins": "All"
+  },
+  "stage": {
+    "loading": "Loading catalog...",
+    "idleSingle": "Ready to decide? ",
+    "idleTriple": "Draw 3 options and pick yours from ",
+    "idleTail": "waiting for your tap.",
+    "empty": "No title matches these filters.",
+    "shuffling": "Shuffling",
+    "chooseOne": "Tap to pick one of the options:"
+  },
+  "actions": {
+    "drawing": "Drawing...",
+    "again": "Draw again",
+    "drawThree": "Draw 3 options",
+    "drawOne": "Draw a {kind}",
+    "countOne": "{count} draw this session",
+    "countOther": "{count} draws this session"
+  },
+  "result": {
+    "rank": "#{rank} in the ranking",
+    "directedBy": "directed by {name}",
+    "posterAlt": "{title} poster",
+    "readMore": "Read full synopsis",
+    "readLess": "Collapse synopsis",
+    "watchTrailer": "Watch trailer",
+    "noTrailer": "Trailer unavailable",
+    "closeTrailer": "Close trailer",
+    "trailerOf": "{title} trailer"
+  },
+  "faq": {
+    "heading": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Where do the drawn movies come from?",
+        "a": "With no filters, the draw uses the IMDb Top 250 list (250 titles) mirrored on TMDb. When you filter by streaming service, titles come from that service's catalog in your region, sorted by rating."
+      },
+      {
+        "q": "Can I draw TV shows too?",
+        "a": "Yes. Switch between Movies and TV shows at the top; shows use TMDb's top rated and popular rankings."
+      },
+      {
+        "q": "How do I filter by service, genre or decade?",
+        "a": "Pick a service under \"Where to watch\" and narrow it down by genre and decade. The \"Clear filters\" button returns to the IMDb Top 250."
+      },
+      {
+        "q": "Can I see 3 options instead of 1?",
+        "a": "Yes. In \"Pick from 3\" mode the draw returns three titles and you decide between them."
+      }
+    ]
+  },
+  "footer": {
+    "live": "Live data from TMDb (The Movie Database).",
+    "offlinePrefix": "Showing the offline curated list. Set the ",
+    "offlineSuffix": " variable to pull live rankings from TMDb."
+  },
+  "langSwitch": {
+    "ariaLabel": "Language"
+  },
+  "misc": {
+    "otherGenre": "Other",
+    "untitled": "Untitled"
+  },
+  "origins": {
+    "ko": "K-dramas"
+  },
+  "brand": {
+    "name": "Let's Watch",
+    "first": "Let's",
+    "second": "Watch"
+  }
+}
